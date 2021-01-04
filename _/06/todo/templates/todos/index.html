@@ -1,0 +1,27 @@
+<h1>Your To-Dos</h1>
+
+<a class="btn" href="/todos/new">New To-Do</a>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>What</th>
+      <th>Scope</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="todo-list">
+    <tr class="todo">
+      <td class="pos"></td>
+      <td class="what"></td>
+      <td class="scope"></td>
+      <td class="remove">
+        <form action="/todos/delete" method="POST">
+          <input type="hidden" name="pos" value="" />
+          <input type="submit" name="Delete" value="Delete" />
+        </form>
+      </td>
+    </tr>
+  </tbody>
+</table>

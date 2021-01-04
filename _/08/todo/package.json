@@ -1,0 +1,25 @@
+{
+  "description": "To-do App",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "union": "0.3.0",
+    "flatiron": "0.2.8",
+    "plates": "0.4.x",
+    "node-static": "0.6.0",
+    "nano": "3.3.0",
+    "flatware-cookie-parser": "0.1.x",
+    "flatware-session": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.4.x",
+    "zombie": "1.4.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/users.js test/session.js test/todos.js",
+    "start": "node app.js"
+  },
+  "name": "todo",
+  "author": "Pedro",
+  "homepage": ""
+}

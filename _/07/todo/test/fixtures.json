@@ -1,0 +1,32 @@
+{
+  "user" : {
+    "email": "me@email.com",
+    "password": "mypassword"
+  },
+  "todo": {
+    "todos": [
+      {
+        "what": "Do the kaundry",
+        "created_at": 1346542066308
+      }
+    ]
+  },
+  "todos": {
+    "todos": [
+      {
+        "what": "Do the laundry",
+        "created_at": 1346542066308
+      },
+      {
+        "what": "Call mom",
+        "created_at": 1346542066308
+      },
+      {
+        "what": "Go to gym",
+        "created_at": 1346542066308
+      }
+
+    ]
+  }
+
+}

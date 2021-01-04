@@ -1,0 +1,42 @@
+<h1>New To-Do</h1>
+<form id="new-todo-form" action="/todos" method="POST">
+
+  <p>
+    <label for="what">What</label>
+    <textarea name="what" id="what" required></textarea>
+  </p>
+
+
+  <label for="scope">
+    Scope
+    <select name="scope" id="scope">
+      <option value="" selected="selected">Please select</option>
+      <option value="work">Work</option>
+      <option value="personal">Personal</option>
+      <option value="family">Family</option>
+    </select>
+  </label>
+
+  <p>
+    
+    <label class="radio" for="alarm-false">
+      <input type="radio" name="alarm" value="false" id="alarm-false" checked="checked" /> No Alarm
+    </label>
+
+    <label class="radio" for="alarm-true">
+      <input type="radio" name="alarm" value="true" id="alarm-true" /> Use Alarm
+    </label>
+
+  </p>
+
+  <div id="alarm-date-time" style="display:none">
+    <label class="date" for="alarm-date">
+      <input type="text" name="alarm-date" id="alarm-date" /> Date (YYYY/MM/DD)
+    </label>
+    <label class="time" for="alarm-time">
+      <input type="text" name="alarm-time" id="alarm-time" /> Time (hh:mm)
+    </label>
+  </div>
+
+  <input type="submit" value="Create" />
+</form>
